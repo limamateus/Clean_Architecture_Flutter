@@ -1,8 +1,10 @@
 import 'dart:convert';
 
+import 'package:floor/floor.dart';
 import 'package:flutter/cupertino.dart';
-
+@entity
 class Entry {
+  @primaryKey
   int id;
   String name;
   String image;
